@@ -1,0 +1,11 @@
+#left {
+    width: 300px;
+    float: left;
+}
+#right {
+    margin-left: 200px;
+    float: right;
+}
+.clear {
+    clear: both;
+}

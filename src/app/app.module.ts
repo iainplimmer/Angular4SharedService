@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TaskitemComponent } from './taskitem/taskitem.component';
+import { TasklistComponent } from './tasklist/tasklist.component';
+import { MinitasklistComponent } from './minitasklist/minitasklist.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TaskitemComponent,
+    TasklistComponent,
+    MinitasklistComponent
   ],
   imports: [
     BrowserModule,
@@ -17,4 +23,6 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
