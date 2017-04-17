@@ -6,6 +6,7 @@ import { TaskService } from './../services/task.service';
 @Component({
   selector: 'st-tasklist',
   template: `
+   <h4>Full Task List</h4>
    <ul>
       <li *ngFor="let item of tasks | async">
         <st-taskitem [task]=item></st-taskitem>

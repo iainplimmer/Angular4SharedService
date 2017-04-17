@@ -1,10 +1,9 @@
 #left {
-    width: 300px;
+    width: 200px;
     float: left;
 }
 #right {
     margin-left: 200px;
-    float: right;
 }
 .clear {
     clear: both;

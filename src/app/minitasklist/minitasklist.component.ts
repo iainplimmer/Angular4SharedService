@@ -8,6 +8,7 @@ import 'rxjs/add/operator/take'
 @Component({
   selector: 'st-minitasklist',
   template: `
+  <h4>Mini Task List</h4>
    <ul>
       <li *ngFor="let item of tasks | async">
         <st-taskitem [task]=item></st-taskitem>
